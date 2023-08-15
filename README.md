@@ -12,7 +12,7 @@ sudo apt update
 sudo apt install git
 ```
 
-## Configure Git branch hints
+## Configure git branch hints
 1. edit ~/.bashrc and add below
 ```sh
 # Git branch in prompt.
@@ -25,6 +25,19 @@ PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 ```sh
 source ~/.bashrc
 ```
+
+## Git commands introduction
+### Git configuration
+```sh
+git config --global user.name "lambert"
+git config --global user.email "lambert@example.com"
+git config --global credential.helper store // for saving username and password to avoid input per every time
+```
+### Check git configuration information
+```sh
+git config --global --list
+```
+
 
 
 ## Commands
