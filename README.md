@@ -37,6 +37,15 @@ git config --global credential.helper store // for saving username and password 
 ```sh
 git config --global --list
 ```
+### Git 誤操作的恢復方法
+```sh
+git reflog               // show all action logs
+git reset --hard $HashID // restore
+git log --oneline        // check status
+```
+1. git reflog
+2. 
+
 
 ### Git commands description
 | Command | Description |
@@ -46,6 +55,13 @@ git config --global --list
 | git commit | 提交到本地端倉庫 |
 | git log <br> git log --oneline | 查看本地端倉庫的提交歷史紀錄|
 | git rm --cache "$filename" <br> git restore --staged "$filename" | 取消添加到暫存區 (tracked -> untracked) |
+| git ls-files | 列出暫存區目前的檔案清單 |
+| git reflog | 列出所有git操作紀錄 |
+| git reset --mixed | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✕) |
+| git reset --soft | 撤銷修改內容或是回退到某個版本,  資料狀態: 工作區(✓) 暫存區(✓) |
+| git reset --hard | 撤銷修改內容或是回退到某個版本,  資料狀態: 工作區(✕) 暫存區(✕) |
+
+
 
 
 
