@@ -42,10 +42,10 @@ git config --global --list
 | Command | Description |
 | ------ | ------ |
 | git status | 查看本地端倉庫狀態 |
-| git add    | 添加到暫存區 (untracked -> tracked) |
+| git add "$filename" | 添加到暫存區 (untracked -> tracked) |
 | git commit | 提交到本地端倉庫 |
 | git log <br> git log --oneline | 查看本地端倉庫的提交歷史紀錄|
-| git rm --cache <br> git restore --staged | 取消添加到暫存區 (tracked -> untracked) |
+| git rm --cache "$filename" <br> git restore --staged "$filename" | 取消添加到暫存區 (tracked -> untracked) |
 
 
 
