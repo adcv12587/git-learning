@@ -43,7 +43,7 @@ git config --global credential.helper store // for saving username and password 
 git config --global --list
 ```
 
-### Git 誤操作的恢復方法
+### Recovery methods for git operation mistakes
 ```sh
 git reflog               // show all action logs
 git reset --hard $Commit_Hash // restore
