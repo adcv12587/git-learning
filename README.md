@@ -2,6 +2,9 @@
 ## Hardware
 - Raspberry Pi
 
+## OS
+- Ubuntu 22.04.3 LTS
+
 ## Installation
 Updated and install git
 ```sh
