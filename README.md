@@ -46,7 +46,7 @@ git config --global --list
 ### Git 誤操作的恢復方法
 ```sh
 git reflog               // show all action logs
-git reset --hard $HashID // restore
+git reset --hard $Commit_Hash // restore
 git log --oneline        // check status
 ```
 
@@ -60,9 +60,11 @@ git log --oneline        // check status
 | git rm --cache "$filename" <br> git restore --staged "$filename" | 取消添加到暫存區 (tracked -> untracked) |
 | git ls-files | 列出暫存區目前的檔案清單 |
 | git reflog | 列出所有git操作紀錄 |
-| git reset (--mixed) | [default] 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✕) |
+| git reset (--mixed) | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✕)  [Default] |
 | git reset --soft | 撤銷修改內容或是回退到某個版本,  資料狀態: 工作區(✓) 暫存區(✓) |
 | git reset --hard | 撤銷修改內容或是回退到某個版本,  資料狀態: 工作區(✕) 暫存區(✕) |
+| git diff  HEAD | 查看差異, 工作區與暫存區的差異 [Default] |
+| git diff --cached <br> git diff --staged | 查看差異, 暫存區與repo的差異 |
 
 
 ## Commands
