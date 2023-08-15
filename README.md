@@ -60,7 +60,7 @@ git log --oneline        // check status
 | git rm --cache "$filename" <br> git restore --staged "$filename" | 取消添加到暫存區 (tracked -> untracked) |
 | git ls-files | 列出暫存區目前的檔案清單 |
 | git reflog | 列出所有git操作紀錄 |
-| git reset --mixed | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✕) |
+| git reset (--mixed) | [default] 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✕) |
 | git reset --soft | 撤銷修改內容或是回退到某個版本,  資料狀態: 工作區(✓) 暫存區(✓) |
 | git reset --hard | 撤銷修改內容或是回退到某個版本,  資料狀態: 工作區(✕) 暫存區(✕) |
 
