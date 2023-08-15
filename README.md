@@ -1,6 +1,6 @@
 # git-learning
 ## Hardware
-- Raspberry Pi
+- Raspberry Pi 4 Model B Rev 1.2
 
 ## OS
 - Ubuntu 22.04.3 LTS
@@ -27,5 +27,9 @@ source ~/.bashrc
 ```
 
 
-
+## Commands
+| Target | Command |
+| ------ | ------ |
+| Hardware | cat /proc/cpuinfo |
+| OS | lsb_release -a |
 
