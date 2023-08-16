@@ -110,6 +110,14 @@ Which files should be ignored?
 | U  | Updated 已更新未合併|
 
 
+### Git reset file status
+|  | work directory | staging area |
+| ------ | ------ | ------ |
+| hard | &#x2716 | &#x2716 |
+| soft | &#x2714 | &#x2714 |
+| mixed | &#x2714 | &#x2716 |
+
+
 ## Commands
 | Target | Command |
 | ------ | ------ |
