@@ -83,6 +83,7 @@ Which files should be ignored?
 | git add _檔名_ | 添加到暫存區 (untracked -> tracked) |
 | git commit | 提交到本地端倉庫 |
 | git log <br> git log --oneline | 查看本地端倉庫的提交歷史紀錄|
+| git log --graph --oneline --decorate --all | 圖形化分支狀態 |
 | git rm --cache _檔名_ <br> git restore --staged _檔名_ | 取消添加到暫存區 (tracked -> untracked) |
 | git ls-files | 列出暫存區目前的檔案清單 |
 | git reflog | 列出所有git操作紀錄 |
@@ -95,6 +96,13 @@ Which files should be ignored?
 | git rm --cached _檔名_ | 刪除文件, 資料狀態: 工作區(✓) 暫存區(✕) |
 | 1. git remote add _遠端倉庫名稱_ _遠端倉庫地址_ <br> 2. git push -u _遠端倉庫名稱_ _分支名稱_ | 添加已存在的遠端倉庫 |
 | git remote -v | 查看遠端倉庫 |
+| git branch _new_branch_name_ | 創建新分支 |
+| git branch -a | 查看分支清單 |
+| git switch _branch_name_ | 切換分支 [推薦] |
+| git checkout _branch_name_ | 切換分支 |
+| git merge _branch_name_ | 合併分支 |
+| git branch -d _branch_name_ | 刪除分支 (已合併) |
+| git branch -D _branch_name_ | 刪除分支 (未合併) |
 
 
 
