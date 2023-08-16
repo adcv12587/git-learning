@@ -101,6 +101,7 @@ Which files should be ignored?
 | git switch _branch_name_ | 切換分支 `[推薦]` &#x2705; |
 | git checkout _branch_name_ | 切換分支 |
 | git merge _branch_name_ | 合併分支 |
+| git merge --abort | 取消合併分支 |
 | git branch -d _branch_name_ | 刪除分支 (已合併) |
 | git branch -D _branch_name_ | 刪除分支 (未合併) |
 
