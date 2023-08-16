@@ -68,7 +68,7 @@ Which files should be ignored?
 | Command | Description |
 | ------ | ------ |
 | git status | 查看本地端倉庫詳細狀態 |
-| git status -s | 只顯示本地端倉庫文件狀態 |
+| git status -s | 只顯示本地端倉庫[文件狀態](#git-file-status) |
 | git add _檔名_ | 添加到暫存區 (untracked -> tracked) |
 | git commit | 提交到本地端倉庫 |
 | git log <br> git log --oneline | 查看本地端倉庫的提交歷史紀錄|
@@ -120,4 +120,4 @@ Which files should be ignored?
 
 
 
-[Hardware](#hardware)
+
