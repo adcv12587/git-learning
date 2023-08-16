@@ -50,7 +50,14 @@ git reset --hard $Commit_Hash // restore
 git log --oneline        // check status
 ```
 
-### Git commands description
+### .gitignore rules
+Which files should be ignored?
+1. 系統或者軟體自動生成的文件
+2. 編譯產生的中間文件跟結果文件
+3. 運行時生成的日誌文件、緩存文件、臨時文件
+4. 包含有身分、密碼、密鑰等敏感資訊文件
+
+### Common git commands
 | Command | Description |
 | ------ | ------ |
 | git status | 查看本地端倉庫狀態 |
@@ -67,6 +74,9 @@ git log --oneline        // check status
 | git diff --cached <br> git diff --staged | 查看差異, 暫存區與repo的差異 |
 | git rm "$filename" | 刪除文件, 資料狀態: 工作區(✕) 暫存區(✕) |
 | git rm --cached "$filename" | 刪除文件, 資料狀態: 工作區(✓) 暫存區(✕) |
+| 1. git remote add $遠端倉庫名稱 $遠端倉庫地址 <br> 2. git push -u $遠端倉庫名稱 $分支名稱 | 添加已存在的遠端倉庫 |
+| git remote -v | 查看遠端倉庫 |
+
 
 
 ## Commands
