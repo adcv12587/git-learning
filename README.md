@@ -62,6 +62,18 @@ Which files should be ignored?
 3. 運行時生成的日誌文件、緩存文件、臨時文件
 4. 包含有身分、密碼、密鑰等敏感資訊文件
 
+
+### Git file status
+| Symbol | Definition |
+| ------ | ------ |
+| ?? | Untracked 未跟蹤 |
+| M  | Modified 已修改|
+| A  | Added 已添加暫存|
+| D  | Deleted 已刪除|
+| R  | Renamed 重命名|
+| U  | Updated 已更新未合併|
+
+
 ### Common git commands
 | Command | Description |
 | ------ | ------ |
