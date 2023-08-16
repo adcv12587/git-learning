@@ -9,7 +9,7 @@
 
 ## Git GUI
 - Github desktop (only for github) => 功能簡單, 但夠用
-- Sourcetree => 功能強大  `[推薦]`
+- Sourcetree => 功能強大  `**[推薦]**`
 - GitKraken
 
 
