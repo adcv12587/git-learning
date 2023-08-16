@@ -100,6 +100,7 @@ Which files should be ignored?
 | git branch -a | 查看分支清單 |
 | git switch _branch_name_ | 切換分支 `[推薦]` &#x2705; |
 | git checkout _branch_name_ | 切換分支 |
+| git checkout -b _branch_name_ _commit_hash_ | 恢復分支到某一個狀態 |
 | git merge _branch_name_ | 合併分支 |
 | git merge --abort | 取消合併分支 |
 | git branch -d _branch_name_ | 刪除分支 (已合併) |
