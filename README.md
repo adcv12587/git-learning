@@ -120,4 +120,4 @@ Which files should be ignored?
 
 
 
-[Hardware](##-Hardware)
+[Hardware](#hardware)
