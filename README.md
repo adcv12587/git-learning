@@ -10,6 +10,7 @@
 ## Git GUI
 - Github desktop (only for github) => 功能簡單, 但夠用
 - Sourcetree (recommend)  => 功能強大
+- GitKraken
 
 
 ## Installation
