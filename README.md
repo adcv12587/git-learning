@@ -9,7 +9,7 @@
 
 ## Git GUI
 - Github desktop (only for github) => 功能簡單, 但夠用
-- Sourcetree => 功能強大  &#x2705;`[推薦]`
+- Sourcetree => 功能強大  `[推薦]` &#x2705;
 - GitKraken
 
 
@@ -98,7 +98,7 @@ Which files should be ignored?
 | git remote -v | 查看遠端倉庫 |
 | git branch _new_branch_name_ | 創建新分支 |
 | git branch -a | 查看分支清單 |
-| git switch _branch_name_ | 切換分支 [推薦] |
+| git switch _branch_name_ | 切換分支 `[推薦]` &#x2705; |
 | git checkout _branch_name_ | 切換分支 |
 | git merge _branch_name_ | 合併分支 |
 | git branch -d _branch_name_ | 刪除分支 (已合併) |
