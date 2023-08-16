@@ -61,10 +61,10 @@ Which files should be ignored?
 | Command | Description |
 | ------ | ------ |
 | git status | 查看本地端倉庫狀態 |
-| git add $filename | 添加到暫存區 (untracked -> tracked) |
+| git add _$filename_ | 添加到暫存區 (untracked -> tracked) |
 | git commit | 提交到本地端倉庫 |
 | git log <br> git log --oneline | 查看本地端倉庫的提交歷史紀錄|
-| git rm --cache $filename <br> git restore --staged $filename | 取消添加到暫存區 (tracked -> untracked) |
+| git rm --cache _$filename_ <br> git restore --staged _$filename_ | 取消添加到暫存區 (tracked -> untracked) |
 | git ls-files | 列出暫存區目前的檔案清單 |
 | git reflog | 列出所有git操作紀錄 |
 | git reset (--mixed) | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✕)  [Default] |
@@ -72,9 +72,9 @@ Which files should be ignored?
 | git reset --hard | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✕) 暫存區(✕) |
 | git diff HEAD | 查看差異, 工作區與暫存區的差異 [Default] |
 | git diff --cached <br> git diff --staged | 查看差異, 暫存區與repo的差異 |
-| git rm $filename | 刪除文件, 資料狀態: 工作區(✕) 暫存區(✕) |
-| git rm --cached $filename | 刪除文件, 資料狀態: 工作區(✓) 暫存區(✕) |
-| 1. git remote add $遠端倉庫名稱 $遠端倉庫地址 <br> 2. git push -u $遠端倉庫名稱 $分支名稱 | 添加已存在的遠端倉庫 |
+| git rm _$filename_ | 刪除文件, 資料狀態: 工作區(✕) 暫存區(✕) |
+| git rm --cached _$filename_ | 刪除文件, 資料狀態: 工作區(✓) 暫存區(✕) |
+| 1. git remote add _$遠端倉庫名稱_ _$遠端倉庫地址_ <br> 2. git push -u _$遠端倉庫名稱_ _$分支名稱_ | 添加已存在的遠端倉庫 |
 | git remote -v | 查看遠端倉庫 |
 
 
