@@ -76,9 +76,9 @@ Which files should be ignored?
 | git rm --cache _檔名_ <br> git restore --staged _檔名_ | 取消添加到暫存區 (tracked -> untracked) |
 | git ls-files | 列出暫存區目前的檔案清單 |
 | git reflog | 列出所有git操作紀錄 |
-| git reset (--mixed) _HEAD_/_Commit_Hash_  | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✕)  [Default] |
-| git reset --soft _HEAD_/_Commit_Hash_ | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✓) 暫存區(✓) |
-| git reset --hard _HEAD_/_Commit_Hash_ | 撤銷修改內容或是回退到某個版本, 資料狀態: 工作區(✕) 暫存區(✕) |
+| git reset (--mixed) _HEAD_/_Commit_Hash_  | 撤銷修改內容或是回退到某個版本, [資料狀態](#git-reset-file-status) [Default] |
+| git reset --soft _HEAD_/_Commit_Hash_ | 撤銷修改內容或是回退到某個版本, [資料狀態](#git-reset-file-status) |
+| git reset --hard _HEAD_/_Commit_Hash_ | 撤銷修改內容或是回退到某個版本, [資料狀態](#git-reset-file-status) |
 | git diff _HEAD_ | 查看差異, 工作區與暫存區的差異 [Default] |
 | git diff --cached <br> git diff --staged | 查看差異, 暫存區與repo的差異 |
 | git rm _檔名_ | 刪除文件, 資料狀態: 工作區(✕) 暫存區(✕) |
@@ -113,9 +113,9 @@ Which files should be ignored?
 ### Git reset file status
 |  | work directory | staging area |
 | ------ | ------ | ------ |
-| hard | &#x2716 | &#x2716 |
-| soft | &#x2714 | &#x2714 |
-| mixed | &#x2714 | &#x2716 |
+| hard | &#x2716; | &#x2716; |
+| soft | &#x2714; | &#x2714; |
+| mixed | &#x2714; | &#x2716; |
 
 
 ## Commands
