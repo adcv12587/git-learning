@@ -95,7 +95,9 @@ Which files should be ignored?
 | git merge --abort | 取消合併分支 |
 | git branch -d _branch_name_ | 刪除分支 (已合併) |
 | git branch -D _branch_name_ | 刪除分支 (未合併) |
-
+| git revert | **TBD** |
+| git stash | **TBD** |
+| git cherry-pick | **TBD** |
 
 ### Git file status
 | Symbol | Definition |
@@ -113,3 +115,9 @@ Which files should be ignored?
 | ------ | ------ |
 | Hardware | cat /proc/cpuinfo |
 | OS | lsb_release -a |
+
+
+
+
+
+[Hardware](##-Hardware)
